@@ -12,51 +12,35 @@
   - point: Utilisez un mot de passe fort
     priority: Essential
     details: >-
-      If lol your password is too short, or contains dictionary words, places or names- then it can be easily
-      cracked through brute force, or guessed by someone. The easiest way to make a strong password, is by
-      making it long (12+ characters)- consider using a 'passphrase', made up of many words. Alternatively,
-      use a password generator to create a long, strong random password. Have a play with
-      [HowSecureIsMyPassword.net](https://howsecureismypassword.net), to get an idea of how quickly common
-      passwords can be cracked. Read more about creating strong passwords:
-      [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
+      Si votre mot de passe est trop court ou contient des mots du dictionnaire, des lieux ou des noms, il peut être facilement  
+      craqué par force brute ou deviné par quelqu'un. La manière la plus simple de créer un mot de passe fort est de  
+      le rendre long (12+ caractères) – envisagez d'utiliser une « phrase de passe » composée de plusieurs mots.  
+      Sinon, utilisez un générateur de mots de passe pour créer un mot de passe long, fort et aléatoire. Amusez-vous avec  
+      [l'outil de test de la force du mot de passe de bitwarden](https://bitwarden.com/fr-fr/password-strength/) pour voir à quelle vitesse les mots de passe courants  
+      peuvent être craqués. Lisez-en plus sur la création de mots de passe sécurisés :  
+      [securityinabox.org](https://securityinabox.org/fr/passwords/passwords/)
 
-  - point: Don't reuse Passwords
+  - point: Ne réutilisez ses mots de passe.
     priority: Essential
     details: >-
-      If someone was to reuse a password, and one site they had an account with suffered a leak, then a
-      criminal could easily gain unauthorized access to their other accounts. This is usually done through
-      large-scale automated login requests, and it is called Credential Stuffing. Unfortunately this is all
-      too common, but it's simple to protect against- use a different password for each of your online accounts
+      Si quelqu'un réutilise un mot de passe et qu'un site sur lequel il a un compte subit une fuite de données, un criminel pourrait facilement obtenir un accès non autorisé à ses autres comptes.
+      Cela se fait généralement par le biais de demandes de connexion automatisées à grande échelle, et cette technique s'appelle le "Credential Stuffing".
+      Malheureusement, cela est bien trop courant, mais il est facile de s'en protéger - utilisez un mot de passe différent pour chacun de vos comptes en ligne.
 
   - point: Use a Secure Password Manager
     priority: Essential
     details: >-
-      For most people it is going to be near-impossible to remember hundreds of strong and unique passwords.
-      A password manager is an application that generates, stores and auto-fills your login credentials for you.
-      All your passwords will be encrypted against 1 master passwords (which you must remember, and it should be
-      very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on,
-      your passwords can be auto-filled. A good all-rounder is
-      [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), or see
-      [Recommended Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
+      Pour la plupart des gens, il est presque impossible de se souvenir de centaines de mots de passe forts et uniques. Un gestionnaire de mots de passe est une application qui génère, stocke et remplit automatiquement vos identifiants de connexion pour vous. Tous vos mots de passe seront chiffrés avec un mot de passe maître (que vous devez mémoriser et qui doit être très fort). La plupart des gestionnaires de mots de passe disposent d'extensions pour navigateurs et d'applications mobiles, de sorte que, quel que soit l'appareil que vous utilisez, vos mots de passe peuvent être remplis automatiquement. Un bon gestionnaire polyvalent est [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), ou consultez les [Gestionnaires de mots de passe recommandés](https://awesome-privacy.xyz/essentials/password-managers).
 
   - point: Avoid sharing passwords
     priority: Essential
     details: >-
-      While there may be times that you need to share access to an account with another person, you should
-      generally avoid doing this because it makes it easier for the account to become compromised. If you
-      absolutely do need to share a password for example when working on a team with a shared account this
-      should be done via features built into a password manager.
+      Même s'il peut arriver que vous deviez partager l'accès à un compte avec une autre personne, vous devriez généralement éviter de le faire, car cela facilite la compromission du compte. Si vous devez absolument partager un mot de passe, par exemple lorsque vous travaillez en équipe avec un compte partagé, cela devrait être fait via les fonctionnalités intégrées à un gestionnaire de mots de passe.
 
   - point: Enable 2-Factor Authentication
     priority: Essential
     details: >-
-      2FA is where you must provide both something you know (a password) and something you have (such as a
-      code on your phone) to log in. This means that if anyone has got your password (e.g. through phishing,
-      malware or a data breach), they will not be able to log into your account. It's easy to get started,
-      download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication)
-      onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next
-      time you log in on a new device, you will be prompted for the code that displays in the app on your phone
-      (it works without internet, and the code usually changes every 30-seconds)
+      L'authentification à deux facteurs (2FA) est un processus où vous devez fournir à la fois quelque chose que vous connaissez (un mot de passe) et quelque chose que vous possédez (comme un code sur votre téléphone) pour vous connecter. Cela signifie que même si quelqu'un obtient votre mot de passe (par exemple, via une attaque de phishing, un logiciel malveillant ou une fuite de données), il ne pourra pas accéder à votre compte. Il est facile de commencer : téléchargez [une application d'authentification](https://securityinabox.org/fr/passwords/2fa/) sur votre téléphone, puis allez dans les paramètres de sécurité de votre compte et suivez les étapes pour activer la 2FA. La prochaine fois que vous vous connecterez sur un nouvel appareil, vous serez invité à saisir le code affiché dans l'application sur votre téléphone (cela fonctionne sans Internet, et le code change généralement toutes les 30 secondes).
 
   - point: Keep Backup Codes Safe
     priority: Essential
